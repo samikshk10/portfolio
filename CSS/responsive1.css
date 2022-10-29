@@ -1,0 +1,112 @@
+/* large devices(desktops and laptops) */
+@media (min-width: 1200px) and (max-width:1299px){
+
+}
+    
+/* medium devices (landscape tablets and medium desktops) */
+@media(min-width:992px) and (max-width:1199px) {
+
+    
+}
+
+/* small devices (portrait tablets and small desktops) */
+@media(min-width:768px) and (max-width:991px) {
+    .image-overlay {
+        height: 92%;
+    }
+    
+    
+}
+
+
+@media(min-width:640px) and (max-width:700px) {
+
+      .images {
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    .image-overlay {
+        height: 90%;
+        
+    }
+}
+
+
+@media(min-width:481px) and (max-width:540px) {
+     .images {
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    .image-overlay {
+        height: 88%;
+        
+    }
+    
+}
+
+
+/* small devices (Landspaces phones and portrait tablets) */
+
+@media (min-width: 421px) and (max-width: 480px){
+    
+    .images {
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    .image-overlay {
+        height: 82%;
+        
+    }
+    
+    .image-info h3 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 420px) {
+      .images {
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    .image-overlay {
+        height: 85%;
+        
+    }
+    
+    .image-info h3 {
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+      .images {
+        height: 100%;
+        width: 100%;
+        
+    }
+    
+    
+    .image-overlay {
+        height: 83%;
+        
+    }
+     .image-info h3 {
+        font-size: 16px;
+    }
+    
+}
+
+
