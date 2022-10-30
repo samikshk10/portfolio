@@ -6,6 +6,9 @@ $(window).on('load',function(){
     $("#preloader").delay(350).fadeOut("slow");
 });
 
+
+//========================= Scroll Spy ===================//
+
 const sections = document.querySelectorAll("section");
 const navLi = document.querySelectorAll("nav .container ul li");
 window.addEventListener("scroll", () => {
@@ -26,29 +29,33 @@ window.addEventListener("scroll", () => {
   });
 });
 
-// For Team Section slider
-$(function(){
-    $("#photos").owlCarousel({
-        items: 4,
-        autoplay: true,
-        smartSpeed: 600,
-        loop: true,
-        autoplayHoverPause: true,
-        nav: true,
-        dots: false,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-        responsive: {
-            //breakpoint from 0 up
-            0:{
-                items: 1
-            },
-            //breakpoint from 480 up
-            480:{
-                items: 4
-            },
-        }
+
+
+
+
+
+$(window).on('load', function () {
+
+    // Initialize Isotope
+    $("#isotope-container").isotope({});
+
+    // filter items on button click
+    $("#isotope-filters").on('click', 'button', function () {
+
+        // get filter value
+        var filterValue = $(this).attr('data-filter');
+
+        // filter portfolio
+        $("#isotope-container").isotope({
+            filter: filterValue
+        });
+
+        // active button
+        $("#isotope-filters").find('.active').removeClass('active');
+        $(this).addClass('active');
     });
 });
+
 
 
 
@@ -94,64 +101,6 @@ $(function() {
 });
 
 
-
-//GOOGLE MAPS
-
-$(window).on('load', function () {
-    
-    // on window load don't highlight navigation item
-    
-    if( $(window).scrollTop() < 50 )
-        {
-navLi.forEach((li) => {
-    li.classList.remove("active");
-    
-});
-        }
-    
-    
-    // Map Variables
-    var addressString = 'Shakyamuni Handicraft,Swayambhu Stupa,Kathmandu,Nepal';
-    var myLatlng = {
-        lat: 27.701690,
-        lng: 85.320600
-    };
-
-    // 1. Render Map
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: myLatlng
-    });
-
-    // 2. Add Marker
-    var marker = new google.maps.Marker({
-        position: myLatlng,
-        map: map,
-        title: "Click To See Address"
-    });
-
-    // 3. Add Info Window
-    var infowindow = new google.maps.InfoWindow({
-        content: addressString
-    });
-
-    // Show info window when user clicks marker
-    marker.addListener('click', function () {
-        infowindow.open(map, marker);
-    });
-    
-    //Resize function 
-    google.maps.event.addDomListener(window, 'resize', function(){
-        
-        var center = map.getCenter();
-        google.maps.event.trigger(map, 'resize');
-        map.setCenter(center);
-    });
-    
-
-
-
-});
 
 
 
