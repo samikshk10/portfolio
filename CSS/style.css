@@ -41,7 +41,7 @@ section {
 }
 
 #status {
-    background-image: url(../img/preloader/preloader.gif);
+    background-image: url(../img/preloader/preloader3.gif);
     background-repeat: no-repeat;
     color: white;
     background-color: black;
@@ -150,6 +150,13 @@ section {
     border-radius: 4px;
     font-size: 22px;
     display: none;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.btn-back-to-top:hover{
+    opacity: 100%;
+    color: white;
 }
 
 
@@ -306,6 +313,7 @@ hr {
     height: 3px;
     background-color: #20B2AA;
     margin: 0 auto;
+    margin-bottom: 20px;
     border: none;
 }
 
@@ -680,8 +688,8 @@ ul.social-list li:nth-child(2) a:hover {
 
 .btn-yellow {
     color: #fff;
-    border: 1px solid #f4c613;
-    background-color: #f4c613;
+    border: 1px solid #20B2AA;
+    background-color: #20B2AA;
 }
 
 footer {
@@ -696,7 +704,7 @@ footer p {
 }
 
 footer p span {
-    color: #f4c613;
+    color: #20B2AA;
 }
 
 
@@ -798,3 +806,25 @@ footer p span {
 
 
 
+
+.contacticon-wrapper{
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+
+.contactbox i{
+    font-size: 40px;
+    height: 90px;
+    width: 90px;
+    background-color: #20B2AA;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2;
+}
+.contactbox h4{
+    font-size: 40px;
+}
+
+.contactbox h5{
+    font-size: 20px;
+}
