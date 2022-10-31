@@ -27,7 +27,6 @@ section {
     overflow: hidden;
 }
 
-/*==========================PRELOADER SCREEN(LOADING SCREEN) ========== */
 /* preloader loading screen */
 
 #preloader {
@@ -596,7 +595,7 @@ footer p span {
 
 #mobile-nav-open-btn{
     font-size: 30px;
-    color: #f4c613;
+    color: #20B2AA;
     cursor: pointer;
     z-index: 2;
     position: absolute;
@@ -661,13 +660,13 @@ footer p span {
 #mobile-nav a:focus,
 #mobile-nav-close-btn:hover,
 #mobile-nav-close-btn:focus{
-    color: #f4c613;
+    color: #20B2AA;
     background: none;
 }
 
 /*scroll spy active */
 .white-nav-top #mobile-nav ul.nav>li.active>a {
-    color: #f4c613;
+    color: #20B2AA;
     font-weight: 500;
 }
 
