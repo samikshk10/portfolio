@@ -601,7 +601,6 @@ footer p span {
     position: absolute;
     right: 0;
     top: 6px;
-    /*hide mobile navigation open button*/
     display: none;
 }
 
