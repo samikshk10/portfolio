@@ -48,13 +48,11 @@
     </div>
 
 
-    <!-- Header Section -->
     <header>
         <nav class="navbar navbar-fixed-top" id="navbardone">
             <div class="container-fluid">
                 <div class="site-nav-wrapper">
                     <div class="navbar-header">
-                        <!-- logo -->
                    
                         <!-- Mobile menu open button -->
                         <span id="mobile-nav-open-btn">&#9776;</span>
@@ -79,7 +77,6 @@
                     </div>
                     <!-- Mobile menu -->
                     <div id="mobile-nav">
-                       <!-- Mobile menu close button -->
                         <span id="mobile-nav-close-btn">&times;</span>
                         <div id="mobile-nav-content">
                             <ul class="nav">
@@ -99,7 +96,6 @@
         </nav>
     </header>
 
-    <!-- Header Section Ends -->
     <!--HOME SECTION -->
 
     <section id="home">
@@ -131,7 +127,6 @@
             </a>
         </div>
     </section>
-    <!-- ======================================HOME SECTION ENDS ================================ -->
 
     <!-- About Section -->
    
@@ -185,7 +180,6 @@
     </section>
 
 
-<!-- About Section Ends -->
 
 
 <section id="services">
@@ -314,10 +308,10 @@
                     <div id="isotope-filters" class="justify-content-center align-items-center text-center">
 
                         <button class="btn active" data-filter="*"><span>All</span></button>
-                        <button class="btn" data-filter=".logo"><span>Logo</span></button>
+                        <button class="btn" data-filter=".logo"><span>develop</span></button>
                         <button class="btn" data-filter=".web"><span>Web</span></button>
-                        <button class="btn" data-filter=".mobile"><span>Mobile</span></button>
-                        <button class="btn" data-filter=".desktop"><span>Desktop</span></button>
+                        <button class="btn" data-filter=".mobile"><span>Java</span></button>
+                        <button class="btn" data-filter=".desktop"><span>C</span></button>
 
                     </div>
 
@@ -327,7 +321,6 @@
 
         </div>
 
-        <!-- Portfolio Items Wrapper -->
         <section id="portfolio-wrapper" >
 
          
@@ -339,7 +332,6 @@
 
                         <div class="col-md-3 col-sm-6 col-xs-12 desktop">
 
-                            <!-- Portfolio Item 01 -->
                             <div class="portfolio-item">
 
                                 <img src="img/portfolio/005.jpg" class="img-responsive" >
@@ -347,11 +339,11 @@
                                     <div class="portfolio-item-overlay">
                                         <div class="portfolio-item-details text-center">
 
-                                            <!-- Item Header -->
+                                       
                                             <h3>Logo</h3>
 
 
-                                            <!-- Item Description -->
+                                            
                                             <p>Desktop, Design</p>
 
                                         </div>
@@ -363,7 +355,7 @@
 
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 web">
-                            <!-- Portfolio Item 02 -->
+                          
                             <div class="portfolio-item">
 
                                 <img src="img/portfolio/005.jpg" class="img-responsive" >
@@ -371,12 +363,12 @@
                                     <div class="portfolio-item-overlay">
                                         <div class="portfolio-item-details text-center">
 
-                                            <!-- Item Header -->
+                                       
                                             <h3>Photoshop</h3>
 
                                            
 
-                                            <!-- Item Description -->
+                                            
                                             <p>Web Design, Illustration</p>
 
                                         </div>
@@ -387,18 +379,17 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 web mobile logo">
-                            <!-- Portfolio Item 03 -->
-                            <div class="portfolio-item">
+                           <div class="portfolio-item">
 
                                 <img src="img/portfolio/005.jpg" class="img-responsive" >
                                 <div class="portfolio-item-overlay">
                                         <div class="portfolio-item-details text-center">
-                                            <!-- Item Header -->
+                                       
                                             <h3>
                                                 Web Design
                                             </h3>
                                        
-                                            <!-- Item Description -->
+                                            
                                             <p>
                                                 Video, web
                                             </p>
@@ -409,18 +400,18 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 logo web">
-                            <!-- Portfolio Item 04 -->
+                           
                             <div class="portfolio-item">
 
                                 <img src="img/portfolio/005.jpg" class="img-responsive" >
                                 <div class="portfolio-item-overlay">
                                         <div class="portfolio-item-details text-center">
-                                            <!-- Item Header -->
+                                       
                                             <h3>
                                                 Logo
                                             </h3>
                                          
-                                            <!-- Item Description -->
+                                            
                                             <p>
                                                 desktop, Design
                                             </p>
@@ -431,18 +422,18 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 web">
-                            <!-- Portfolio Item 05 -->
+                   
                             <div class="portfolio-item">
 
                                 <img src="img/portfolio/005.jpg" class="img-responsive" >
                                 <div class="portfolio-item-overlay">
                                         <div class="portfolio-item-details text-center">
-                                            <!-- Item Header -->
+                                       
                                             <h3>
                                                 Photoshop
                                             </h3>
                                       
-                                            <!-- Item Description -->
+                                            
                                             <p>
                                                 Web Design, Illustration
                                             </p>
@@ -453,18 +444,18 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 logo desktop">
-                            <!-- Portfolio Item 06 -->
+                            
                             <div class="portfolio-item">
 
                                 <img src="img/portfolio/005.jpg" class="img-responsive" >
                                 <div class="portfolio-item-overlay">
                                         <div class="portfolio-item-details text-center">
-                                            <!-- Item Header -->
+                                       
                                             <h3>
                                                 Logo
                                             </h3>
                                          
-                                            <!-- Item Description -->
+                                            
                                             <p>
                                                 desktop, Design
                                             </p>
@@ -475,19 +466,19 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 web mobile">
-                            <!-- Portfolio Item 07 -->
+                         
                             <div class="portfolio-item">
 
                                 <img src="img/portfolio/005.jpg" class="img-responsive" >
 
                                     <div class="portfolio-item-overlay">
                                         <div class="portfolio-item-details text-center">
-                                            <!-- Item Header -->
+                                       
                                             <h3>
                                                 Photoshop
                                             </h3>
                                          
-                                            <!-- Item Description -->
+                                            
                                             <p>
                                                 Web Design, Illustration
                                             </p>
@@ -498,18 +489,18 @@
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 web mobile">
-                            <!-- Portfolio Item 08 -->
+                        
                             <div class="portfolio-item">
 
                                 <img src="img/portfolio/005.jpg" class="img-responsive" >
                                 <div class="portfolio-item-overlay">
                                         <div class="portfolio-item-details text-center">
-                                            <!-- Item Header -->
+                                       
                                             <h3>
                                                 Mobile Design
                                             </h3>
                                         
-                                            <!-- Item Description -->
+                                            
                                             <p>
                                                 Video, web
                                             </p>
@@ -650,7 +641,13 @@
         </div>
 
     </section>
-    <!-- Contact Ends -->
+
+
+
+
+
+
+    
           <footer class="text-center">
         <div class="container">
             <div class="row">
