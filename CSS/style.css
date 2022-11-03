@@ -436,13 +436,13 @@ ul.navbar-nav > li >a:active{
 }
 
 #home-heading-1{
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
 }
 
 #home-btn{
-    -webkit-animation-delay: 0.9s;
-    animation-delay: 0.9s;
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
 }
 
 #arrow-down i {
