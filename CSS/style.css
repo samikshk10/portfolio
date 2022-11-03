@@ -437,12 +437,12 @@ ul.navbar-nav > li >a:active{
 
 #home-heading-1{
     -webkit-animation-delay: 1s;
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 }
 
 #home-btn{
-    -webkit-animation-delay: 1s;
-    animation-delay: 2s;
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
 }
 
 #arrow-down i {
@@ -905,6 +905,78 @@ footer p span {
 
 
 
+
+/*========== Testimonial ====================> */
+
+#testimonial {
+    color: #262626;
+    padding: 28px;
+
+
+
+}
+
+.stars i{
+    color: #20B2AA;
+    margin-bottom: 20px;
+}
+
+
+.client-name p
+{
+    color: #fff;
+}
+
+#testimonial-slider{
+    margin-top: 40px;
+
+}
+
+
+.testimonial {
+    padding: 20px 45px 0 45px;
+    
+}
+
+.testimonial h3 {
+    font-size: 32px;
+    line-height: 35px;
+}
+.testimonial p {
+    line-height: 1.8;
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Raleway',sans-serif;
+
+}
+
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #212226;
+    font-size: 50px;
+    background: none;
+    margin: 0;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: #20B2AA;
+}
+
+
+.owl-dots .owl-dot.active span{
+    background: #20B2AA !important;
+    transform: scale(1.8);
+   }
+
+   .owl-dots .owl-dot span{
+   transform: scale(1.3);
+   }
+
+
+.client .row{
+    margin-top: 20px;
+}
 
 
 
