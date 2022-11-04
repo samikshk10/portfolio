@@ -68,8 +68,8 @@
                                 <li class="home active"><a class="smooth-scroll" href="#home">Home</a></li>
                                 <li class="about"><a class="smooth-scroll" href="#about">About</a></li>
                                 <li class="services"><a class="smooth-scroll" href="#services">Services</a></li>
-                                <li class="portfolio "><a class="smooth-scroll" href="#portfolio">Portfolio</a></li>
-                                <li class="testimonial "><a class="smooth-scroll" href="#testimonial">Blog</a></li>
+                                <li class="portfolio"><a class="smooth-scroll" href="#portfolio">Portfolio</a></li>
+                                <li class="testimonial"><a class="smooth-scroll" href="#testimonial">Blog</a></li>
                                 <li class="contact "><a class="smooth-scroll" href="#contact">Contact</a></li>
                                 
                             </ul>
@@ -554,7 +554,7 @@
             <div id="testimonial-slider" class="owl-carousel owl-theme wow slideInRight">
 
     
-                <div class="testimonial">
+                <div class="testimonials">
 
                     <div class="row">
                        
@@ -590,7 +590,7 @@
                 </div>
 
                
-                <div class="testimonial">
+                <div class="testimonials">
 
                     <div class="row">
                       
@@ -627,7 +627,7 @@
                 </div>
 
       
-                <div class="testimonial">
+                <div class="testimonials">
 
                     <div class="row">
                     
