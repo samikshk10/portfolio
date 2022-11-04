@@ -69,7 +69,7 @@
                                 <li class="about"><a class="smooth-scroll" href="#about">About</a></li>
                                 <li class="services"><a class="smooth-scroll" href="#services">Services</a></li>
                                 <li class="portfolio "><a class="smooth-scroll" href="#portfolio">Portfolio</a></li>
-                                <li class="contact "><a class="smooth-scroll" href="#testimonial">Blog</a></li>
+                                <li class="testimonial "><a class="smooth-scroll" href="#testimonial">Blog</a></li>
                                 <li class="contact "><a class="smooth-scroll" href="#contact">Contact</a></li>
                                 
                             </ul>
