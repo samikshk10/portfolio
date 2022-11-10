@@ -1,7 +1,5 @@
-
-
 //windows preloader animation
-$(window).on('load',function(){
+$(window).on('load', function () {
     $("#status").fadeOut();
     $("#preloader").delay(350).fadeOut("slow");
 });
@@ -12,21 +10,21 @@ $(window).on('load',function(){
 const sections = document.querySelectorAll("section");
 const navLi = document.querySelectorAll("nav .container ul li");
 window.addEventListener("scroll", () => {
-  let current = "";
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight;
-    if (pageYOffset >= sectionTop - sectionHeight / 3) {
-      current = section.getAttribute("id");
-    }
-  });
+    let current = "";
+    sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - sectionHeight / 3) {
+            current = section.getAttribute("id");
+        }
+    });
 
-  navLi.forEach((li) => {
-    li.classList.remove("active");
-    if (li.classList.contains(current)) {
-      li.classList.add("active");
-    }
-  });
+    navLi.forEach((li) => {
+        li.classList.remove("active");
+        if (li.classList.contains(current)) {
+            li.classList.add("active");
+        }
+    });
 });
 
 
@@ -62,41 +60,41 @@ $(window).on('load', function () {
 ///// NAVIGATION BAR ////////////////////////
 
 // Show and hide white navigation
-$(function() {
+$(function () {
     //show/hide nav on page load
     showHideNav();
 
-    
-    $(window).scroll(function(){
-       //show/hide nav on windows scroll
-    showHideNav();
-    
-    });
-    
 
-    
-   
-    function showHideNav(){
-           if( $(window).scrollTop() > 50 ) {
-           //Show white nav
+    $(window).scroll(function () {
+        //show/hide nav on windows scroll
+        showHideNav();
+
+    });
+
+
+
+
+    function showHideNav() {
+        if ($(window).scrollTop() > 50) {
+            //Show white nav
             $("nav").addClass("white-nav-top");
-            
+
             //show dark logo
-         //   $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
-               
-               //show back to top bottom 
+            //   $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
+
+            //show back to top bottom 
             $("#back-to-top").fadeIn();
-            
-           }else {
-               //Hide white bar
-               $("nav").removeClass("white-nav-top");
-               
-               //show logo 
+
+        } else {
+            //Hide white bar
+            $("nav").removeClass("white-nav-top");
+
+            //show logo 
             //    $(".navbar-brand img").attr("src", "img/logo/logo.png");
-               
-               //Hide back to top bottom 
+
+            //Hide back to top bottom 
             $("#back-to-top").fadeOut();
-           }
+        }
     }
 });
 
@@ -127,32 +125,32 @@ $(function () {
 //|||||||||| ANIMATION ||||||||| 
 
 //animate on scroll
-$(function() {
-    
+$(function () {
+
     new WOW().init();
 });
 
-$(window).on('load',function(){
+$(window).on('load', function () {
     $("#home-heading-1").addClass("animated fadeInDown");
-      $("#home-btn").addClass("animated zoomIn");
+    $("#home-btn").addClass("animated zoomIn");
     $("#arrow-down i").addClass("animated fadeInDown infinite");
-     $(".gallery-heading h4 span").addClass("animated fadeInDown infinite");
+    $(".gallery-heading h4 span").addClass("animated fadeInDown infinite");
 });
 
 //|||||||||| Mobile Menu ||||||||| 
-$(function() {
-    
+$(function () {
+
     //show mobile navigation
-    $("#mobile-nav-open-btn").click(function() {
-        $("#mobile-nav").css("height" ,"100%");
+    $("#mobile-nav-open-btn").click(function () {
+        $("#mobile-nav").css("height", "100%");
     });
-    
-     //hide mobile navigation
-    $("#mobile-nav-close-btn, #mobile-nav a").click(function() {
-        $("#mobile-nav").css("height" ,"0%");
+
+    //hide mobile navigation
+    $("#mobile-nav-close-btn, #mobile-nav a").click(function () {
+        $("#mobile-nav").css("height", "0%");
     });
-    
-    
+
+
 });
 
 //<====================  Testimonial  =====================>
@@ -169,23 +167,14 @@ $(function () {
         dots: true,
         // navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
 
-        navText: false
+        navText: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 2
+            }
+        }
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

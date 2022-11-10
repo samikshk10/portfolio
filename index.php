@@ -1,6 +1,9 @@
 
 
+<?php 
 
+include_once 'contact-form-handler.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -753,7 +756,7 @@
                 <!-- Contact Right -->
                 <div id="contact-right">
 
-                    <form id="contact-foorm" >
+                    <form id="contact-foorm" method="post" >
 
                                 <div class="row">
 

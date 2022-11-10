@@ -519,6 +519,7 @@ ul.contact-details li i {
     line-height: 24px;
     background-color: #262626;
     border: none;
+    color: #fff;
 
 }
 
@@ -528,6 +529,16 @@ ul.contact-details li i {
 #contact-right form textarea.form-control {
     min-height: 164px;
 }
+
+#submit-btn {
+    opacity: 80%;
+    transition: 0.35s linear;
+}
+
+#submit-btn:hover {
+    opacity: 100%;
+}
+
 
 
 ul.social-list {
